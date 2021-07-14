@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./css/Register.css">
+</head>
+
+<body>
+    <div class="register-form">
+        <form>
+            <h1>Registration Form</h1>
+            <div class="name-form">
+                <input type="username" class="username" placeholder="First name" size="30">
+                <input type="username" class="username" placeholder="Middle name" size="30">
+                <input type="username" class="username" placeholder="Sir Name" size="30">
+            </div>
+            <!-- Course selection part -->
+            <div class="course-form">
+                <label for="Course">Available Courses</label>
+                <div>
+                    <select class="name-form">
+                        <option value="Course">Computer</option>
+                        <option value="CE">Computer Engineering</option>
+                        <option value="AI">Artificial Intelligence</option>
+                        <option value="IT">Information Technology</option>
+                        <option value="BG">Big Data</option>
+                    </select>
+
+                    <select class="name-form">
+                        <option value="Course">Other Engineerings</option>
+                        <option value="CHE">Chemical Engineering</option>
+                        <option value="ME">Mechenical Engineering</option>
+                        <option value="CIE">Civil Engineering</option>
+                        <option value="A">Architecture</option>
+                    </select>
+                    <select class="name-form">
+                        <option value="Course">Others</option>
+                        <option value="PH">Pharmacy</option>
+                        <option value="PY">Physiotherapy</option>
+                        <option value="N">Nursing</option>
+                        <option value="C">clinical</option>
+                    </select>
+                </div>
+            </div>
+            
+            <!-- Email Address -->
+            <div>
+                <label>Email:</label>
+                <input type="email" id="email" name="email" placeholder="email-id">
+                <label>Gender:</label>
+                <select class="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <!-- Phone information -->
+
+            <div>
+                <label>Phone number:
+                    <input type="number" class="phone1" name="Country Code" value="number" size="5"
+                        placeholder="code">
+                    <input type="text" class="phone" name="Phone" size="20" placeholder="number">
+                </label>
+            </div>
+
+            <!-- Address of Applicant -->
+            <div class="name-form">
+                <textarea placeholder="Address" name="Region" id="Region" cols="70" rows="2"></textarea>
+                </label>
+            </div>
+
+            <!-- Password -->
+            <div class="name-form">
+                <label>Password:
+                    <input type="password" id="pass" name="pass" placeholder="Password">
+                    <input type="password" id="pass" name="repass" placeholder="Confirm">
+                </label>
+            </div>
+            <div>
+                <button class="button" value="Submit">Submit</button>
+            </div>
+            
+        </form>
+    </div>
+</body>
+
+</html>

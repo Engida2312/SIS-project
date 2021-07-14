@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add Student</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="./css/admin-add.css">
+    <link rel="stylesheet" href="./css/admin.css">
+</head>
+<body>
+   
+
+
+    <!-- *********************admin body start**************** -->
+    <div class="admin-body">
+        <div class="student-form">
+            <div class="basic-information">
+                <h3>Basic Information</h3>
+                <form action=""  class="basic-info-form">
+                    <div>
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Last Name">
+                    </div>
+                    <div>
+                        <input type="text" name="" placeholder="Phone No">
+                        <input type="text" placeholder="Date">
+                        <input type="text" placeholder="Age">
+                    </div>
+                    <div>
+                        <input type="text" name="" placeholder="Gender">
+                        <input type="text" placeholder="Department">
+                        <input type="text" placeholder="Enter your email">
+                    </div>
+                    <label for="fileUpload" class="flie-upload-label">
+                        <div>
+                            <i class="fa fa-file-upload"></i>
+                        </div>
+                        <input class="file-upload" type="file" id="fileUpload" name="usr_file" required>
+                        <p><strong>Choose a file</strong> or drag it here</p>
+                        <button class="btn upload-btn" type="submit"">Upload</button>
+                    </label>
+                    <label for="description" class="description">
+                        <textarea name="" id="description" rows="6" placeholder="Description"></textarea>
+                    </label>
+
+                    <div class="form-btn">
+                        <button type="submit" class="btn submit-btn">Submit</button>
+                        <button type="submit" class="btn cancel-btn">cancel</button>
+                    </div>
+                </form>
+            </div>
+            <div class="account-information">
+                <h3>Account Information</h3>
+                <form action="">
+                    <div>
+                        <input type="text" name="" placeholder="User Name">
+                    </div>
+                    <div>
+                        <input type="text" name="" placeholder="Password">
+                        <input type="text" placeholder="Confirm Password">
+                    </div>
+                    <div class="form-btn">
+                        <button type="submit" class="btn submit-btn">Submit</button>
+                        <button type="submit" class="btn cancel-btn">cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- *********************admin body end**************** -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/admin.js"></script>
+</body>
+</html>
