@@ -1,1 +1,2 @@
-thise is the main branch
+this project repository contain the front-end of the project if you want to see the 
+fullstack (front and back-end) go to egna-begna-university repository
